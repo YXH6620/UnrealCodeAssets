@@ -15,5 +15,10 @@ private:
 	class ABlasterPlayerController* Controller;
 	class ABlasterHUD* HUD;
 
+	/**
+	* HUD and crosshairs
+	*/
 
+	float CrosshairVelocityFactor;
+	float CrosshairInAirFactor;
 };
